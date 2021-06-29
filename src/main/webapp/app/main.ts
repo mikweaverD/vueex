@@ -29,6 +29,9 @@ import ConfigurationService from '@/admin/configuration/configuration.service';
 
 /* tslint:disable */
 
+import BankAccountService from '@/entities/bank-account/bank-account.service';
+import LabelService from '@/entities/label/label.service';
+import OperationService from '@/entities/operation/operation.service';
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
 /* tslint:enable */
@@ -91,6 +94,9 @@ new Vue({
     metricsService: () => new MetricsService(),
     alertService: () => alertService,
     translationService: () => translationService,
+    bankAccountService: () => new BankAccountService(),
+    labelService: () => new LabelService(),
+    operationService: () => new OperationService(),
     // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
     accountService: () => accountService,
   },

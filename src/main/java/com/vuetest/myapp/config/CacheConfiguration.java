@@ -48,6 +48,12 @@ public class CacheConfiguration {
             createCache(cm, com.vuetest.myapp.domain.User.class.getName());
             createCache(cm, com.vuetest.myapp.domain.Authority.class.getName());
             createCache(cm, com.vuetest.myapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.vuetest.myapp.domain.BankAccount.class.getName());
+            createCache(cm, com.vuetest.myapp.domain.BankAccount.class.getName() + ".operations");
+            createCache(cm, com.vuetest.myapp.domain.Label.class.getName());
+            createCache(cm, com.vuetest.myapp.domain.Label.class.getName() + ".operations");
+            createCache(cm, com.vuetest.myapp.domain.Operation.class.getName());
+            createCache(cm, com.vuetest.myapp.domain.Operation.class.getName() + ".labels");
             // jhipster-needle-ehcache-add-entry
         };
     }

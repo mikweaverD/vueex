@@ -4,7 +4,7 @@
       "home": {
         "title": "Bank Accounts",
         "createLabel": "Create a new Bank Account",
-        "createOrEditLabel": "Create or edit a Bank Account",
+        "createOrEditLabel": "Create or edit a Bank Account 123",
         "notFound": "No Bank Accounts found"
       },
       "created": "A new Bank Account is created with identifier {{ param }}",
